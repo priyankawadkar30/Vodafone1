@@ -1,4 +1,4 @@
-#Add Package
+#Add Packagepip
 import os
 #Find the current working directory
 cmd="date"
