@@ -1,0 +1,10 @@
+{
+"Resources": {
+    "CreateS3Bucket": { 
+        "Type":"AWS::S3::Buket",
+        "Properties":{
+            "BucketName":"bktcftv1priyanka"
+        }
+    }   
+}
+}
