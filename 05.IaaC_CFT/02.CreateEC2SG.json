@@ -1,0 +1,20 @@
+{
+    "Resources": {
+        "CreateFirewall": { 
+            "Type":"AWS::EC2::SecurityGroup",
+            "Properties":{
+                "GroupName":"sgcftv1priyanka",
+                "GroupDescription":"Allow Http to Client host",
+                "VpcId":"vpc-ff8f4594",
+                "SecurityGroupIngress":[
+                    {
+                        "IpProtocol":"tcp",
+                        "FromPort":80,
+                        "ToPort":80,
+                        "cidrIp":"0.0.0.0/0"
+                    }
+                ]
+            }
+        }   
+    }
+    }
